@@ -2,9 +2,8 @@ module Test.Main where
 
 import Prelude
 
-import Data.Time.Duration (Milliseconds(..))
 import Effect (Effect)
-import Effect.Aff (launchAff_, delay)
+import Effect.Aff (launchAff_)
 import Test.Spec (pending, describe, it)
 import Test.Spec.Assertions (shouldEqual)
 import Test.Spec.Reporter.Console (consoleReporter)
